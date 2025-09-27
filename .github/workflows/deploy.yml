@@ -3,7 +3,7 @@ name: Deploy to Home Server
 # Запускать воркфлоу при пуше в ветку main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-push:
